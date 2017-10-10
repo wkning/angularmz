@@ -1,0 +1,38 @@
+.scorllAD{
+	width: 100%;
+}
+.scorllAD img {
+
+}
+.markFont{
+	width: 100%;
+}
+.markFont p{
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #999;
+	margin: 10px auto;
+	border-radius: 15px;
+	font-size: 14px;
+	color: #666;
+}
+.centerNei{
+	padding-top: 20px;
+	text-align: center;
+}
+.markFont1{
+	position: relative;
+	top: -12px;
+	color: white;
+	background-color: #A7A7A7;
+	font-size: 12px;
+	border-radius: 5px;
+	padding: 2px 8px;	
+}
+.line{
+	background-color: #999;
+	height: 1px;
+
+}

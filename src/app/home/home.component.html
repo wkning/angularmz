@@ -1,0 +1,20 @@
+<div class="scorllAD">
+	<div class="swiper-container" style="z-index:-1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" *ngFor="let ad of scorllAD">
+            	<img [src]=ad.imageUrl>
+            </div>
+        </div> 
+    </div>
+</div>
+<div style="background-color: #ebebeb; padding-top: 20px;">
+	<app-filmitem *ngFor="let item of moves1" [moveItem]="item"></app-filmitem>
+	<div class="markFont">
+		<p>更多热映电影</p>
+	</div>
+	<div class="centerNei">
+		<div class="line"></div>
+		<span class="markFont1">即将上映</span>
+	</div>
+	<app-filmitem *ngFor="let item of moves" [moveItem]="item"></app-filmitem>
+</div>

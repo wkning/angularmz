@@ -1,0 +1,14 @@
+<div class="zuocebg" *ngIf="showDao" [@leftnavouter]="leftnavouter" (click)="daohan()">
+</div>
+<ul class="zuoce" [@leftnav]="leftnav" (click)="daohan()" *ngIf="showDao">
+	<a  href="javascript:void(0);" routerLink="home" >
+		<li>首页<img src="../../assets/右括号.png"></li>
+	</a>
+	<a  href="javascript:void(0);" routerLink="film">
+		<li>影片<img src="../../assets/右括号.png"></li>
+	</a>
+	<li>影院<img src="../../assets/右括号.png"></li>
+	<li>商城<img src="../../assets/右括号.png"></li>
+	<li>我的<img src="../../assets/右括号.png"></li>
+	<li>卖座卡<img src="../../assets/右括号.png"></li>
+</ul>

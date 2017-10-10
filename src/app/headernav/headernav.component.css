@@ -1,0 +1,27 @@
+.nav{
+	background-color: #282828;
+	height: 50px;
+	width: 100%;
+	display: flex;
+	position: fixed;
+	justify-content:space-between;
+	color: #999;
+	align-items:center;
+	font-size: 14px;
+	top: 0;
+}
+.nav img{
+	width: 15px; 
+	height: 15px
+}
+.navLeft{
+	flex:1;
+	padding-left: 15px;
+	display: flex;
+	align-item:center;	
+}
+.navRight{
+	padding-right: 10px;
+	display: flex;
+	align-item:center;
+}

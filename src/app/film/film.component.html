@@ -1,0 +1,18 @@
+<div style="background-color: #F9F9F9">
+	<div class="filmNav">
+		<ul>
+			<li (click)="showBottom()">
+				<a  href="javascript:void(0);" routerLink="playing" >
+				正在热映
+				</a>
+			</li>
+			<li (click)="showBottom1()">
+				<a  href="javascript:void(0);" routerLink="coming" >
+				即将上映
+				</a>
+			</li>
+		</ul>
+		<div [@showbottom]="showbottom" class="move"></div>
+	</div>
+	<router-outlet></router-outlet>
+</div>

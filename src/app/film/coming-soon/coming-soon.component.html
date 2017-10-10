@@ -1,0 +1,16 @@
+<div class="flimCon" *ngFor="let item of films" >
+		<div class="filmLeft">
+			<img [src]=item.poster.thumbnail style="width: 60px;height: 83px">
+		</div>
+		<div class="filmCenter">
+		<span>{{item.name}}</span>
+		<span style="color: #999; font-size: 12px">
+			{{item.intro}}
+		</span>
+		<span style="color: #999; font-size: 12px">
+			<!-- {{item.premiereAt| dateEdit}} -->
+			{{item.scheduleCount}}家影院上映{{item.watchCount}}人购票
+		</span>
+		</div>
+		<div class="filmRight" style="color:orange">{{item.grade}}</div>
+</div>

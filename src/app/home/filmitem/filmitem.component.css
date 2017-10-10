@@ -1,0 +1,31 @@
+.listBg{
+	background-color: #EBEBEB;
+}
+.listImg{
+	width: 90%;
+	margin: 0 auto;
+}
+.listImg img{
+	margin: 0 auto;
+}
+.listCon{
+	height: 50px; 
+	width: 90%; 
+	background-color: white; 
+	margin: 0 auto;
+	box-shadow: 3px 3px 3px #888888;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+.listConL{
+	float: left; 
+	margin-left: 10px;
+	font-size: 12px;
+}
+.listConR{
+	float: right; 
+	margin-right: 30px; 
+	font-size: 25px; 
+	color: orange;
+
+}
