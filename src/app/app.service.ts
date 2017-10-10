@@ -10,7 +10,7 @@ private showL:boolean=false;
   getshow(){
   	return this.showL;
   }
-     getMoves(){
+    getMoves(){
     return [
             {
                 "id":3571,

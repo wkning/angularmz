@@ -1,8 +1,10 @@
 .scorllAD{
 	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 .scorllAD img {
-
+	width: 100%;
 }
 .markFont{
 	width: 100%;

@@ -1,15 +1,18 @@
 .listBg{
 	background-color: #EBEBEB;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 .listImg{
 	width: 90%;
 	margin: 0 auto;
 }
 .listImg img{
+	width: 100%;
 	margin: 0 auto;
 }
 .listCon{
-	height: 50px; 
+	height: 60px; 
 	width: 90%; 
 	background-color: white; 
 	margin: 0 auto;

@@ -1,5 +1,5 @@
-.filmNav{
-	
+.filmNav a{
+	text-decoration: none;
 }
 .filmNav ul{
 	display: flex;
@@ -19,6 +19,7 @@
 	position: relative;
 	height: 3px;
 	bottom: 0px;
-	width: 50%;
+	width: 45%;
+	left: 2.5%;
 	background-color: #FE6E00;
 }

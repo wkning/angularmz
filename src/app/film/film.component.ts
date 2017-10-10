@@ -8,9 +8,9 @@ import {AppService} from '../app.service'
   styleUrls: ['./film.component.css'],
   animations:[
     trigger('showbottom',[
-      state('void',style({'left':'0'})),
-      state('showright',style({'left':'50%'})),
-      state('showleft',style({'left':'0'})),
+      state('void',style({'left':'2.5%'})),
+      state('showright',style({'left':'52.5%'})),
+      state('showleft',style({'left':'2.5%'})),
       transition('*=>*',animate(500))
     ])
   ]
