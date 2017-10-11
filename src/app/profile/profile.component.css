@@ -1,0 +1,134 @@
+.profile{
+	position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.profile_header{
+	background-color: #303030;
+    color: #fff;
+}
+.header_center{
+	padding: 36px 12px 24px 10%;
+}
+.file {
+	position: relative;
+	display: flex;
+}
+.file img {
+	width: 92px;
+	height: 92px;
+	border-radius: 50%;
+	margin-right: 14px;
+}
+.file input {
+	opacity: 0;
+	width: 92px;
+	height: 92px;
+	position: absolute;
+	background: orange;
+
+}
+.detail{
+	float: left;
+    margin-top: 16px;
+}
+.detail p{
+	margin-bottom: 4px;
+}
+p.user{
+	font-size: 14px;
+}
+p.email{
+	font-size: 12px;
+	color: #fff;
+}
+p.operation{
+	font-size: 12px;
+    color: #ffbd80;
+    margin-top: 0;
+    text-decoration: underline;
+}
+span.logout{
+	padding: 5px 20px 5px 0;
+    cursor: pointer;
+}
+.profile_center{
+	padding: 0;
+    width: 100%;
+}
+.menu-wrapper{
+	width: 100%;
+    margin: 14px 0;
+    line-height: 60px;
+    
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    color: #222;
+}
+.cash{
+	margin-bottom: 0;
+}
+.yinhua{
+	margin: 0 auto;
+}
+.card{
+	margin-top: 0;
+}
+.menu-wrapper .menu{
+	margin: 0 12px;
+	height: 60px;
+}
+.menu-wrapper.cash .menu{
+	border-bottom: solid 1px #eaeaea;
+}
+.menu-wrapper.yinhua .menu{
+	border-bottom: solid 1px #eaeaea;
+}
+
+.iconQian{
+	display: inline-block;
+	color:#fff ;
+	background:#7bcdcc ;
+	height: 24px;
+	width: 24px;
+	line-height: 24px;
+	text-align: center;
+	border-radius: 50%;
+}
+.title{
+	margin-left: 9px;
+    line-height: 35px;
+    vertical-align: inherit;
+}
+.pull-right{
+	float: right !important;
+}
+.pull-right span.value{
+	color: #e7a858;
+}
+.iconRight{
+	color: #bdbdbd;
+	font-size: 16px;
+	width: 16px;
+	height: 16px;
+}
+.fa-hourglass-o{
+	background: #bbcea5;
+}
+.fa-cloud{
+	background: #95c0ea;
+}
+.cash .fa-money{
+	background: #ffb978;
+}
+.fa-money{
+	background: #faa0b5;
+}
+.fa-id-card-o{
+	background: #80dae6;
+}
+.fa-cog{
+	background: #a4c9e5;
+}
+
