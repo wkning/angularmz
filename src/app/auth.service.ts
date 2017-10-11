@@ -9,7 +9,13 @@ export class AuthService implements CanActivate {
         console.log('取激活路由对应视图组件数据使用');
     }
 	canActivate(): boolean {
-		return true;
+		if(sessionStorage.getItem('username')=='123'&&sessionStorage.getItem('password')=='123'){
+			return true
+		}else{
+			alert("请先登录")
+			this.router.navigateByUrl('login');
+			return false;
+		}
 	}
 	canDeactivate(){
 		console.log('我离开了这个路由');

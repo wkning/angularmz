@@ -10,11 +10,14 @@
 <div style="background-color: #ebebeb; padding-top: 20px;">
 	<app-filmitem *ngFor="let item of moves1" [moveItem]="item"></app-filmitem>
 	<div class="markFont">
-		<p>更多热映电影</p>
+		<p (click)="loadMorePlaying()">更多热映电影</p>
 	</div>
 	<div class="centerNei">
 		<div class="line"></div>
 		<span class="markFont1">即将上映</span>
 	</div>
 	<app-filmitem *ngFor="let item of moves" [moveItem]="item"></app-filmitem>
+	<div class="markFont">
+		<p>更多即将上映电影</p>
+	</div>
 </div>

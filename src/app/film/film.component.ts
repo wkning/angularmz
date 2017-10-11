@@ -18,23 +18,21 @@ import {AppService} from '../app.service'
 export class FilmComponent implements OnInit {
 private mzdata:any;
 private films:Array<any>;
-private films1:Array<any>;
 private showbottom:string;
   constructor(mzdata:AppService) { 
   	this.mzdata=mzdata;
-    this.films=this.mzdata.getFilms();
   }
 
   ngOnInit() {
-    this.showbottom='showleft' 
+    this.showbottom='showleft';
+    
   }
   showBottom(){  
     this.showbottom='showleft' 
-    this.films=this.mzdata.getFilms();
+   
   }
   showBottom1(){ 
     this.showbottom='showright' 
-    this.films=this.mzdata.getFilms1();
   }
 
 }
